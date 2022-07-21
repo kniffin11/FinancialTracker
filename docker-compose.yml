@@ -1,0 +1,30 @@
+# docker version
+version: "3.9"
+# the images to run at the same time go in services
+services:
+  # back end
+  server: 
+    # location in home dir 
+    build: ./server
+    # local_computer_port : exposed_port
+    ports: 
+    - "5000:5000"
+    # the location in which updates would occur to update page on reload
+    volumes: 
+    - ./server:/app 
+    # change environment from production
+    environment: 
+      FLASK_ENV: developent
+  # front end 
+  client:
+    build: ./client
+    ports: 
+    - "3000:3000"
+    volumes: 
+    - ./client:/user/src/app
+    # links client to the server 
+    depends_on:
+      - server
+      # dont forget to include proxy in client/package.json as the port to the server
+
+# to run file put this in cmd line: docker-compose up 
