@@ -1,12 +1,3 @@
-Here are screenshots to show everything connects, I am still working on the contents that make up the app as mentioned in the description and images, I had memory issues. 
-
-Client Side, react app
-![ClientSide](https://user-images.githubusercontent.com/99624366/180242034-fd88168d-153e-4525-a8f1-681f3db8ea4d.jpg)
-
-Server Side, python flask
-![ServerSide](https://user-images.githubusercontent.com/99624366/180242063-c2db26dc-2d86-4185-ae53-6c99787c5ec7.jpg)
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
