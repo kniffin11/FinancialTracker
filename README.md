@@ -1,5 +1,5 @@
 # SneakerStore
-Some of my hardrive files were wiped and I have been having memory issues, so I am uploading this unfinished to both keep my progress safe and to show the application of Dockerfiles and a docker-compose file. Attached are screenshots to ensure its connection
+I am remaking this app, uploading to show the application of Dockerfiles and a docker-compose file. Attached are screenshots to ensure the front and back end communicate
 
 Client side image: React app
 ![ClientSide](https://user-images.githubusercontent.com/99624366/180242674-ab98aada-ffd8-42f8-b901-b9974b4a0433.jpg)
